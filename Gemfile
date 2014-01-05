@@ -38,6 +38,7 @@ end
 
 gem "twitter-bootstrap-rails"
 
+gem "simple_form"
 
 # Use unicorn as the app server
 # gem 'unicorn'

@@ -1,0 +1,14 @@
+<div class="fishbox span7 offset2">
+
+	<h2>Submit Your Pic
+
+	<%= simple_form_for @pic do |f| %>
+	<%= f.input :lesson %>
+	<%= f.input :emotion %>
+	<%= f.input :learned %>
+
+	<%= f.button :submit, 'Submit' %>
+
+	<% end %>
+</h2>
+</div>
