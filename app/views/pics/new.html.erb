@@ -1,14 +1,18 @@
-<div class="fishbox span7 offset2">
+<div class="fishbox span7 offset2 text-center">
 
-	<h2>Submit Your Pic
+	<h1 class="custom-h1 ">Submit Your Pic</h1>
 
+<h2>
 	<%= simple_form_for @pic do |f| %>
-	<%= f.input :lesson %>
-	<%= f.input :emotion %>
-	<%= f.input :learned %>
-
-	<%= f.button :submit, 'Submit' %>
+	<%= f.input :lesson, label: 'Which lesson are you reviewing?' %>
+</br>
+	<%= f.input :emotion, label: 'How did you feel about it?', placeholder: 'Example: "stoked, excited," etc.' %>
+	</br>
+	<%= f.input :learned, label: 'What lesson did you learn?', placeholder: "HTML, CSS, etc." %>
+</br>
+	<%= f.button :submit, 'Submit', :class => 'btn btn-medium btn-warning' %>
 
 	<% end %>
 </h2>
+
 </div>
