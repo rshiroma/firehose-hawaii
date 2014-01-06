@@ -42,6 +42,8 @@ gem "simple_form"
 
 gem 'carrierwave'
 
+gem "fog", "~> 1.3.1"
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
