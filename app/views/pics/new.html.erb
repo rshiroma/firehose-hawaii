@@ -6,6 +6,11 @@
 	<%= simple_form_for @pic do |f| %>
 	<%= f.input :lesson, label: 'Which lesson are you reviewing?' %>
 </br>
+
+	<%= f.input :picture, label: "Upload your picture" %>
+
+	<br/>
+	
 	<%= f.input :emotion, label: 'How did you feel about it?', placeholder: 'Example: "stoked, excited," etc.' %>
 	</br>
 	<%= f.input :learned, label: 'What lesson did you learn?', placeholder: "HTML, CSS, etc." %>

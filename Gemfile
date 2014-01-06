@@ -40,6 +40,8 @@ gem "twitter-bootstrap-rails"
 
 gem "simple_form"
 
+gem 'carrierwave'
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
